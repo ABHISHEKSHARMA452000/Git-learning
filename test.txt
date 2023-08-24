@@ -8,7 +8,7 @@ commands of git
            Author: Abhishek sharma <ebox.abhisheksharma@gmail.com>
            Date:   Thu Aug 24 16:00:15 2023 +0530
 7. git log --oneline for above info in one line show
-8. git checkout version for particular version or git checkout master to lastest version
+8. git checkout version for getting the particular version or git checkout master to get the lastest version
 9. git remote -v to get the url to which this repo was linked
 10.git remote add name url to connect local with remote repo for the first time then use name ther is no need for url then
 11. git pull origin main for the first time then do git pull no other need
