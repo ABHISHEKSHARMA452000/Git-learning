@@ -1,0 +1,9 @@
+commands of git 
+1. ls -a to get all files in folder hidden also
+2. git status we mainly use in working area or stagging area
+3. to track the untracked file we use command git add filename/.(for all file)
+4. git restore filename to get back its previous version
+5. git diff to check the difference between version eg: git restore test.txt
+
+
+

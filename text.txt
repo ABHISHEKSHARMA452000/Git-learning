@@ -1,0 +1,3 @@
+working space => stagging area => local repo. => remote repo.
+git status => git add foldername/. =>git commit -m "message" => git push
+
