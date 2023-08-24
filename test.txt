@@ -8,5 +8,6 @@ commands of git
            Author: Abhishek sharma <ebox.abhisheksharma@gmail.com>
            Date:   Thu Aug 24 16:00:15 2023 +0530
 7. git log --oneline for above info in one line show
+8. git checkout version for particular version or git checkout master to lastest version
 
 
