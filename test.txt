@@ -4,6 +4,9 @@ commands of git
 3. to track the untracked file we use command git add filename/.(for all file)
 4. git restore filename to get back its previous version
 5. git diff to check the difference between version eg: git restore test.txt
-
+6. git log :commit 4e99749b5275f231407b1b042ee16fbb4f922706 (HEAD -> master)
+           Author: Abhishek sharma <ebox.abhisheksharma@gmail.com>
+           Date:   Thu Aug 24 16:00:15 2023 +0530
+7. git log --oneline for above info in one line show
 
 
