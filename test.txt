@@ -60,6 +60,29 @@ c6b7cc4 pull test.txt
 
 
 17.to delete the branch git branch -d branchname
-
+18. to push a new branch to git
+PS C:\Users\HP\Desktop\git-practice> git checkout feature1
+Switched to branch 'feature1'
+M       test.txt
+PS C:\Users\HP\Desktop\git-practice> git add .
+PS C:\Users\HP\Desktop\git-practice> git commit -m "feature1"
+[feature1 616cb35] feature1
+ 1 file changed, 42 insertions(+)
+PS C:\Users\HP\Desktop\git-practice> git push -u origin feature1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 779 bytes | 194.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'feature1' on GitHub by visiting:
+remote:      https://github.com/ABHISHEKSHARMA452000/Git-learning/pull/new/feature1
+remote:
+To https://github.com/ABHISHEKSHARMA452000/Git-learning.git
+ * [new branch]      feature1 -> feature1
+branch 'feature1' set up to track 'origin/feature1'.
+PS C:\Users\HP\Desktop\git-practice> 
 
 
