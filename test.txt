@@ -13,3 +13,11 @@ commands of git
 10.git remote add name url to connect local with remote repo for the first time then use name ther is no need for url then
 11. git pull origin main for the first time then do git pull no other need
 12. again update
+13.Branching git branch sa all branch visible ho jati hai of that project branch is just the copy of the master branch do some work which not going to harm master and then merge them
+14.git branch branchname to create a branch and git checkout branchname to switvh to that branch
+15.git checkout master to back to master and then git merge feature1 to merge the branch with master branch/or need to be present in that branch jisma hum merge karna chahata hai feature1 branch ko
+
+
+
+
+
