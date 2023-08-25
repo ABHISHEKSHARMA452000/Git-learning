@@ -16,8 +16,50 @@ commands of git
 13.Branching git branch sa all branch visible ho jati hai of that project branch is just the copy of the master branch do some work which not going to harm master and then merge them
 14.git branch branchname to create a branch and git checkout branchname to switvh to that branch
 15.git checkout master to back to master and then git merge feature1 to merge the branch with master branch/or need to be present in that branch jisma hum merge karna chahata hai feature1 branch ko
+PS C:\Users\HP\Desktop\git-practice> git branch
+* main
+* main
+Switched to branch 'feature1'
+M       test.txt
+PS C:\Users\HP\Desktop\git-practice> git branch
+  main
+PS C:\Users\HP\Desktop\git-practice> git add .
+PS C:\Users\HP\Desktop\git-practice> git commit "branch"
+error: pathspec 'branch' did not match any file(s) known to git
+PS C:\Users\HP\Desktop\git-practice> git commit -m "branch"
+[feature1 29a8a1e] branch
+ 2 files changed, 9 insertions(+)
+ create mode 100644 test2.txt
+PS C:\Users\HP\Desktop\git-practice> git checkout main
+Switched to branch 'main'
+PS C:\Users\HP\Desktop\git-practice> git log --oneline
+941af84 (HEAD -> main, origin/main) update
+3b042fc check
+859361c Update test.txt
+c6b7cc4 pull test.txt
+87bf48e connection
+667aa05 git log
+4e99749 test and text
+PS C:\Users\HP\Desktop\git-practice> git merge feature1
+Updating 941af84..29a8a1e
+Fast-forward
+ test.txt  | 8 ++++++++
+ test2.txt | 1 +
+ 2 files changed, 9 insertions(+)
+ create mode 100644 test2.txt
+PS C:\Users\HP\Desktop\git-practice> git log --oneline
+29a8a1e (HEAD -> main, feature1) branch
+941af84 (origin/main) update
+3b042fc check
+859361c Update test.txt
+c6b7cc4 pull test.txt
+87bf48e connection
+2e9a135 version control
+667aa05 git log
+4e99749 test and text
 
 
+17.to delete the branch git branch -d branchname
 
 
 
